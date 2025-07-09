@@ -1,0 +1,67 @@
+# Kaggle Calorie Prediction Project Configuration
+# For Playground Series S5E5 - Evelyn's Competition Entry
+
+# Data paths
+data:
+  raw_data_path: "data/raw/"
+  processed_data_path: "data/processed/"
+  train_file: "train.csv"
+  test_file: "test.csv"
+  submission_file: "sample_submission.csv"
+
+# Model parameters (based on actual approach used)
+models:
+  random_forest:
+    n_estimators: 100
+    max_depth: null  # No limit (let it grow)
+    random_state: 42
+    # Grid search found optimal max_features
+    max_features: 3  # Placeholder - actual value from grid search
+    
+  linear_regression:
+    fit_intercept: true
+    
+  decision_tree:
+    random_state: 42
+    
+  ensemble:
+    ridge_alpha: 1.0
+    rf_estimators: 100
+    svr_C: 100
+    svr_kernel: "rbf"
+
+# Feature engineering (what actually worked)
+features:
+  create_bmi: true
+  create_heart_rate_ratios: true
+  create_interaction_terms: true
+  create_body_temp_ratios: true  # Less useful but included
+  
+# Cross-validation
+cv:
+  n_splits: 10  # Used 10-fold CV in the actual project
+  shuffle: true
+  random_state: 42
+
+# Training
+training:
+  test_size: 0.2
+  random_state: 42
+  
+# Evaluation
+evaluation:
+  primary_metric: "rmse"  # Root Mean Squared Error
+  secondary_metric: "rmsle"  # Root Mean Squared Log Error
+  
+# Competition results
+competition:
+  final_rank: 1605
+  total_participants: 4318
+  final_score: 0.05951
+  percentile: 37  # Top 37%
+  submissions_made: 4
+
+# Misc
+random_seed: 42  # For reproducibility
+output_dir: "results/"
+best_model: "random_forest"  # Winner!
