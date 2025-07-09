@@ -106,8 +106,6 @@ This was my first "real" machine learning project and honestly? It was harder th
 
 ## Shoutouts
 
-Thanks to the Kaggle community for all the shared notebooks and ideas! Also big thanks to my dad for helping me debug when I was stuck 
+Thanks to the Kaggle community for all the shared notebooks and ideas! Also big thanks to my dad for helping me debug when I was stuck.
 
 ---
-
-*P.S. - Still not sure why my Apple Watch thinks I burned 500 calories walking to the kitchen, but at least now I understand the math behind the madness!*
