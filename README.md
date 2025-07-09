@@ -1,8 +1,8 @@
-# 🔥 Predicting Calorie Burn - My First Kaggle Competition! 
+# Predicting Calorie Burn - My First Kaggle Competition! 
 
 **Competition:** Playground Series S5E5 - Predict Calorie Expenditure  
-**My Result:** 🏆 **Ranked 1605 out of 4318 (Top 37%)** with final score of 0.05951  
-**What I learned:** SO much about machine learning and why my Apple Watch sometimes seems way off 😅
+**My Result:** **Ranked 1605 out of 4318 (Top 37%)** with final score of 0.05951  
+**What I learned:** SO much about machine learning and why my Apple Watch sometimes seems way off
 
 ![Competition Results](results/kaggle_ranking.png)
 
@@ -20,11 +20,11 @@ Given data about people's:
 - Duration of exercise
 - Heart rate info
 
-**Goal:** Predict exactly how many calories they burned 🎯
+**Goal:** Predict exactly how many calories they burned 
 
 ## My Approach (The Journey)
 
-### 1. **Getting to Know the Data** 📊
+### 1. **Getting to Know the Data** 
 - First thing I did was make a bunch of charts to see what the data actually looked like
 - Found some interesting patterns! Like obviously taller/heavier people burn more calories
 - Also discovered that exercise intensity matters WAY more than I expected
@@ -35,7 +35,7 @@ Given data about people's:
 - **Interaction Features:** `Heart_Rate × Duration` squared for non-linear relationships
 - **Body Temperature Ratios:** `Body_Temp / Heart_Rate` (though this was less useful)
 
-### 3. **Model Progression** 🤖
+### 3. **Model Progression** 
 My journey from simple to sophisticated:
 1. **Linear Regression:** Great baseline, achieved decent results with feature scaling
 2. **Decision Tree:** Better performance, could capture non-linear patterns
@@ -49,7 +49,7 @@ My journey from simple to sophisticated:
 - **Heart rate intensity ratios** captured the exercise effort better than raw heart rate
 - **Feature scaling** helped the linear models but wasn't as critical for tree-based models
 
-## Key Insights 💡
+## Key Insights 
 
 1. **BMI is a game-changer** - Much more predictive than using height and weight separately
 2. **Heart rate intensity matters most** - Not just the raw heart rate, but how it relates to exercise duration
@@ -57,7 +57,7 @@ My journey from simple to sophisticated:
 4. **Non-linear relationships exist** - Tree-based models significantly outperformed linear approaches
 5. **Data quality is evident** - The clean correlations suggested this was well-designed synthetic data for learning
 
-## Technical Stuff (For the Nerds)
+## Technical Stuff
 
 - **Best Model:** Random Forest with engineered features
 - **Final Score:** 0.05951 (RMSE)
