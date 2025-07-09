@@ -29,7 +29,7 @@ Given data about people's:
 - Found some interesting patterns! Like obviously taller/heavier people burn more calories
 - Also discovered that exercise intensity matters WAY more than I expected
 
-### 2. **Feature Engineering** (Fancy term for "making the data better")
+### 2. **Feature Engineering** 
 - **BMI Calculation:** `BMI = weight / (height/100)²` - turned out to be super important!
 - **Heart Rate Ratios:** Created `Heart_Rate / Duration` to capture exercise intensity
 - **Interaction Features:** `Heart_Rate × Duration` squared for non-linear relationships
@@ -107,7 +107,7 @@ This was my first "real" machine learning project and honestly? It was harder th
 
 ## Shoutouts
 
-Thanks to the Kaggle community for all the shared notebooks and ideas! Also big thanks to my dad for helping me debug when I was stuck 🙏
+Thanks to the Kaggle community for all the shared notebooks and ideas! Also big thanks to my dad for helping me debug when I was stuck 
 
 ---
 
