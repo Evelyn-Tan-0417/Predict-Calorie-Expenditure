@@ -4,7 +4,7 @@
 **My Result:** **Ranked 1605 out of 4318 (Top 37%)** with final score of 0.05951  
 **What I learned:** SO much about machine learning and why my Apple Watch sometimes seems way off
 
-![Competition Results](results/kaggle_ranking.png)
+![Competition Results](results/kaggle_ranking.jpg)
 
 ## What's This All About?
 
