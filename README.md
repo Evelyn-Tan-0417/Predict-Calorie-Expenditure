@@ -79,7 +79,6 @@ This was my first "real" machine learning project and honestly? It was harder th
 - The importance of data exploration and correlation analysis
 
 **Life lessons:**
-- Ranking in top 37% on my first competition feels amazing! 🎉
 - Sometimes simple solutions (Random Forest) work better than complex ones (ensemble)
 - Feature engineering is where the real magic happens
 - My fitness tracker probably uses similar algorithms to what I just built
